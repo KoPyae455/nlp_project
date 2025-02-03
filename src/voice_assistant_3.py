@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"  # Replace with your API key
+openai.api_key = ""  # Replace with your API key
 
 def get_ai_response(prompt):
     response = openai.ChatCompletion.create(
